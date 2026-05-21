@@ -10,9 +10,9 @@
   "width": 750,
   "height": 450,
   "projection": {
-    "type": "mercator",
+    "type": "equalEarth",
     "center": [109, 4],
-    "scale": 2500
+    "scale": 2400
   },
   "layer": [
     {
@@ -117,6 +117,9 @@
           }
         },
         "color": {"value": "#2c3e50"},
+        "opacity": {"value": 0.5},
+        "stroke": {"value": "white"},
+        "strokeWidth": {"value": 1.5},
         "tooltip": [
           {"field": "state", "title": "State"},
           {"field": "visitors", "title": "Visitors (million)"},
