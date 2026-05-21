@@ -11,7 +11,7 @@
       "field": "component",
       "type": "nominal",
       "title": "Component",
-      "scale": {"scheme": "tableau10"},
+      "scale": {"scheme": "set2"},
       "legend": {"titleFontSize": 12, "labelFontSize": 11}
     },
     "tooltip": [
