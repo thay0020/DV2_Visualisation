@@ -6,7 +6,15 @@
   "data": {"url": "transport_share.json"},
   "mark": {"type": "arc", "innerRadius": 80, "tooltip": true},
   "encoding": {
-    "theta": {"field": "share", "type": "quantitative"},
+    "theta": {
+        "field": "share",
+        "type": "quantitative",
+        "sort": "descending"
+    },
+    "order": {
+        "field": "share",
+        "sort": "ascending"
+    },
     "color": {
       "field": "mode",
       "type": "nominal",
@@ -21,5 +29,11 @@
       {"field": "mode", "title": "Mode"},
       {"field": "share", "title": "Share (%)", "format": ".1f"}
     ]
-  }
+  },
+  "config": {
+        "arc": {
+            "startAngle": -1.5708,
+            "endAngle": 4.71239
+        }
+    }
 }
