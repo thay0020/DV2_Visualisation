@@ -6,7 +6,11 @@
   "data": {"url": "expenditure_components.json"},
   "mark": {"type": "arc", "tooltip": true},
   "encoding": {
-    "theta": {"field": "percentage", "type": "quantitative"},
+    "theta": {
+    "field": "percentage",
+    "type": "quantitative",
+    "sort": "descending"
+    },
     "color": {
       "field": "component",
       "type": "nominal",
