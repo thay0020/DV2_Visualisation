@@ -18,32 +18,53 @@
   "transform": [
     {"filter": "datum.mode == mode_selection"}
   ],
-  "mark": {"type": "bar", "tooltip": true},
-  "encoding": {
-    "x": {
-      "field": "arrivals",
-      "type": "quantitative",
-      "title": "Visitor Arrivals"
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "arrivals", "type": "quantitative", "title": "Visitor Arrivals"},
+        "x2": {"value": 0},
+        "y": {
+          "field": "entry_point",
+          "type": "nominal",
+          "title": "Point of Entry",
+          "sort": "-x"
+        },
+        "color": {
+          "field": "mode",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Land", "Air", "Sea", "Rail"],
+            "range": ["#e67e22", "#2980b9", "#27ae60", "#8e44ad"]
+          },
+          "legend": null
+        }
+      }
     },
-    "y": {
-      "field": "entry_point",
-      "type": "nominal",
-      "title": "Point of Entry",
-      "sort": "-x"
-    },
-    "color": {
-      "field": "mode",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Land", "Air", "Sea", "Rail"],
-        "range": ["#e67e22", "#2980b9", "#27ae60", "#8e44ad"]
-      },
-      "legend": null
-    },
-    "tooltip": [
-      {"field": "entry_point", "title": "Point of Entry"},
-      {"field": "mode", "title": "Mode"},
-      {"field": "arrivals", "title": "Arrivals", "format": ","}
-    ]
-  }
+    {
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "x": {"field": "arrivals", "type": "quantitative"},
+        "y": {
+          "field": "entry_point",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "color": {
+          "field": "mode",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Land", "Air", "Sea", "Rail"],
+            "range": ["#e67e22", "#2980b9", "#27ae60", "#8e44ad"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "entry_point", "title": "Point of Entry"},
+          {"field": "mode", "title": "Mode"},
+          {"field": "arrivals", "title": "Arrivals", "format": ","}
+        ]
+      }
+    }
+  ]
 }
