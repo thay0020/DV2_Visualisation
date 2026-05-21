@@ -53,6 +53,11 @@
     <h2>Tourism Points of Interest by State</h2>
     <div id="poi_map"></div>
   </div>
+  
+  <div class="chart-container">
+    <h2>Domestic Tourist Intensity by State</h2>
+    <div id="states_choropleth"></div>
+  </div>
 
   <!-- PIE CHARTS -->
   <div class="chart-container">
@@ -71,11 +76,6 @@
       <div id="trips_trend"></div>
       <div id="expenditure_trend"></div>
     </div>
-  </div>
-
-  <div class="chart-container">
-    <h2>States Visited by Domestic Tourists 2024</h2>
-    <div id="states_bar"></div>
   </div>
 
   <!-- INTERNATIONAL VISITORS -->
@@ -97,12 +97,12 @@
 
   <script>
     vegaEmbed("#poi_map", "malaysia_poi_map.vg.json", { actions: false }).catch(console.error);
+    vegaEmbed("#states_choropleth", "states_choropleth.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#purposes_pie", "purposes_pie.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#expenditure_pie", "expenditure_pie.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#visitors_trend", "visitors_trend.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#trips_trend", "trips_trend.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#expenditure_trend", "expenditure_trend.vg.json", { actions: false }).catch(console.error);
-    vegaEmbed("#states_bar", "states_bar.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#monthly_arrivals", "monthly_arrivals.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#top_countries", "top_countries.vg.json", { actions: false }).catch(console.error);
     vegaEmbed("#transport_share", "transport_share.vg.json", { actions: false }).catch(console.error);
