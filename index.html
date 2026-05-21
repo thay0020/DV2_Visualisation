@@ -14,7 +14,14 @@
       padding: 20px;
       background: #f9f9f9;
     }
-    h1 { text-align: center; color: #1a1a2e; }
+    h1 {
+  text-align: center;
+  color: #1a1a2e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
     h2 { color: #16213e; }
     .chart-container {
       background: white;
@@ -22,21 +29,81 @@
       margin: 20px 0;
       border-radius: 8px;
     }
+    .chart-row {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
   </style>
 </head>
 <body>
+
   <h1>Tourism Trends in Malaysia</h1>
   <p style="text-align:center">
-    An exploration of international and domestic tourism patterns in Malaysia.
+    An exploration of domestic and international tourism patterns in Malaysia.
   </p>
 
+  <!-- MAP -->
   <div class="chart-container">
-    <h2>Chart 1: Placeholder</h2>
-    <div id="chart1"></div>
+    <h2>Tourism Points of Interest by State</h2>
+    <div id="poi_map"></div>
   </div>
 
+  <!-- PIE CHARTS -->
+  <div class="chart-container">
+    <h2>Domestic Tourism Overview 2024</h2>
+    <div class="chart-row">
+      <div id="purposes_pie"></div>
+      <div id="expenditure_pie"></div>
+    </div>
+  </div>
+
+  <!-- TREND CHARTS -->
+  <div class="chart-container">
+    <h2>Domestic Tourism Trends 2020-2024</h2>
+    <div class="chart-row">
+      <div id="visitors_trend"></div>
+      <div id="trips_trend"></div>
+      <div id="expenditure_trend"></div>
+    </div>
+  </div>
+
+  <div class="chart-container">
+    <h2>States Visited by Domestic Tourists 2024</h2>
+    <div id="states_bar"></div>
+  </div>
+
+  <!-- INTERNATIONAL VISITORS -->
+<div class="chart-container">
+  <h2>International Visitor Arrivals (Jan-Apr 2025)</h2>
+  <div class="chart-row">
+    <div id="monthly_arrivals"></div>
+    <div id="top_countries"></div>
+  </div>
+</div>
+
+<div class="chart-container">
+  <h2>Visitor Arrivals by Transport & Point of Entry</h2>
+  <div class="chart-row">
+    <div id="transport_share"></div>
+    <div id="poe"></div>
+  </div>
+</div>
+
   <script>
-    // charts will go here
+    vegaEmbed("#poi_map", "malaysia_poi_map.vg.json").catch(console.error);
+    vegaEmbed("#purposes_pie", "purposes_pie.vg.json").catch(console.error);
+    vegaEmbed("#expenditure_pie", "expenditure_pie.vg.json").catch(console.error);
+    vegaEmbed("#visitors_trend", "visitors_trend.vg.json").catch(console.error);
+    vegaEmbed("#trips_trend", "trips_trend.vg.json").catch(console.error);
+    vegaEmbed("#expenditure_trend", "expenditure_trend.vg.json").catch(console.error);
+    vegaEmbed("#states_bar", "states_bar.vg.json").catch(console.error);
+    vegaEmbed("#monthly_arrivals", "monthly_arrivals.vg.json").catch(console.error);
+    vegaEmbed("#top_countries", "top_countries.vg.json").catch(console.error);
+    vegaEmbed("#transport_share", "transport_share.vg.json").catch(console.error);
+    vegaEmbed("#poe", "poe.vg.json").catch(console.error);
   </script>
+
 </body>
 </html>
