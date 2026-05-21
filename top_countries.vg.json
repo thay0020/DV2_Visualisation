@@ -20,11 +20,19 @@
           "sort": "-x"
         },
         "color": {
-          "field": "growth",
-          "type": "quantitative",
-          "title": "Growth % (2025 vs 2024)",
-          "scale": {"scheme": "redyellowgreen", "domainMid": 0},
-          "legend": {"titleFontSize": 12, "labelFontSize": 11}
+        "field": "growth",
+        "type": "quantitative",
+        "bin": {
+            "maxbins": 4
+        },
+        "title": "Growth (%) (binned)",
+        "scale": {
+            "scheme": "teals"
+        },
+        "legend": {
+            "titleFontSize": 12,
+            "labelFontSize": 11
+        }
         },
         "tooltip": [
           {"field": "country", "title": "Country"},
