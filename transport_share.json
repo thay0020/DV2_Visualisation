@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "Land",
+    "share": 66.2
+  },
+  {
+    "mode": "Air",
+    "share": 28.8
+  },
+  {
+    "mode": "Sea",
+    "share": 3.7
+  },
+  {
+    "mode": "Rail",
+    "share": 1.2
+  }
+]

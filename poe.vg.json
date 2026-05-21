@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Visitor Arrivals by Point of Entry (Jan-Apr 2025)", "fontSize": 16},
+  "width": 500,
+  "height": 350,
+  "params": [
+    {
+      "name": "mode_selection",
+      "value": "Land",
+      "bind": {
+        "input": "select",
+        "options": ["Land", "Air", "Sea", "Rail"],
+        "name": "Transport Mode: "
+      }
+    }
+  ],
+  "data": {"url": "poe.json"},
+  "transform": [
+    {"filter": "datum.mode == mode_selection"}
+  ],
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "arrivals",
+      "type": "quantitative",
+      "title": "Visitor Arrivals"
+    },
+    "y": {
+      "field": "entry_point",
+      "type": "nominal",
+      "title": "Point of Entry",
+      "sort": "-x"
+    },
+    "color": {
+      "field": "mode",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Land", "Air", "Sea", "Rail"],
+        "range": ["#e67e22", "#2980b9", "#27ae60", "#8e44ad"]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "entry_point", "title": "Point of Entry"},
+      {"field": "mode", "title": "Mode"},
+      {"field": "arrivals", "title": "Arrivals", "format": ","}
+    ]
+  }
+}

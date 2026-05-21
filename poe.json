@@ -1,0 +1,82 @@
+[
+  {
+    "mode": "Land",
+    "entry_point": "Tambak Johor",
+    "arrivals": 5174159
+  },
+  {
+    "mode": "Land",
+    "entry_point": "Gelang Patah",
+    "arrivals": 2206945
+  },
+  {
+    "mode": "Land",
+    "entry_point": "Bukit Kayu Hitam",
+    "arrivals": 261406
+  },
+  {
+    "mode": "Land",
+    "entry_point": "Padang Besar",
+    "arrivals": 246281
+  },
+  {
+    "mode": "Land",
+    "entry_point": "Sungai Tujuh",
+    "arrivals": 243189
+  },
+  {
+    "mode": "Air",
+    "entry_point": "KLIA",
+    "arrivals": 1623860
+  },
+  {
+    "mode": "Air",
+    "entry_point": "KLIA 2",
+    "arrivals": 1394383
+  },
+  {
+    "mode": "Air",
+    "entry_point": "LTA Bayan Lepas",
+    "arrivals": 423039
+  },
+  {
+    "mode": "Air",
+    "entry_point": "LTA Kota Kinabalu",
+    "arrivals": 208763
+  },
+  {
+    "mode": "Air",
+    "entry_point": "LTA Langkawi",
+    "arrivals": 55554
+  },
+  {
+    "mode": "Sea",
+    "entry_point": "Pelabuhan Pulau Pinang",
+    "arrivals": 115100
+  },
+  {
+    "mode": "Sea",
+    "entry_point": "Stulang Laut",
+    "arrivals": 95089
+  },
+  {
+    "mode": "Sea",
+    "entry_point": "Langkawi",
+    "arrivals": 48304
+  },
+  {
+    "mode": "Sea",
+    "entry_point": "Terminal Feri Puteri Harbour",
+    "arrivals": 44209
+  },
+  {
+    "mode": "Sea",
+    "entry_point": "Kukup",
+    "arrivals": 35192
+  },
+  {
+    "mode": "Rail",
+    "entry_point": "Woodlands Train Checkpoint",
+    "arrivals": 165501
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Main Purposes of Trips by Domestic Visitors", "fontSize": 16},
+  "width": 350,
+  "height": 350,
+  "data": {"url": "purposes.json"},
+  "mark": {"type": "arc", "tooltip": true},
+  "encoding": {
+    "theta": {"field": "percentage", "type": "quantitative"},
+    "color": {
+      "field": "purpose",
+      "type": "nominal",
+      "title": "Purpose",
+      "scale": {"scheme": "tableau10"},
+      "legend": {"titleFontSize": 12, "labelFontSize": 11}
+    },
+    "tooltip": [
+      {"field": "purpose", "title": "Purpose"},
+      {"field": "percentage", "title": "Percentage (%)", "format": ".1f"}
+    ]
+  }
+}

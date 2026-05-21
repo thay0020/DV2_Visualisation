@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Monthly Visitor Arrivals 2024 vs 2025 (Jan-Apr)", "fontSize": 16},
+  "width": 500,
+  "height": 300,
+  "data": {"url": "monthly_arrivals.json"},
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "month",
+      "type": "nominal",
+      "title": "Month",
+      "sort": ["Jan", "Feb", "Mar", "Apr"]
+    },
+    "y": {
+      "field": "arrivals",
+      "type": "quantitative",
+      "title": "Visitor Arrivals"
+    },
+    "xOffset": {"field": "year", "type": "nominal"},
+    "color": {
+      "field": "year",
+      "type": "nominal",
+      "title": "Year",
+      "scale": {"domain": ["2024", "2025"], "range": ["#1a5276", "#c0932f"]},
+      "legend": {"titleFontSize": 12, "labelFontSize": 11}
+    },
+    "tooltip": [
+      {"field": "month", "title": "Month"},
+      {"field": "year", "title": "Year"},
+      {"field": "arrivals", "title": "Arrivals", "format": ","}
+    ]
+  }
+}

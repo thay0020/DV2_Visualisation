@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Number of Trips 2020-2024 (millions)", "fontSize": 16},
+  "width": 400,
+  "height": 300,
+  "data": {"url": "trends.json"},
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#1a5276", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal", "title": "Year"},
+        "y": {"field": "trips", "type": "quantitative", "title": "Trips (million)"},
+        "tooltip": [
+          {"field": "year", "title": "Year"},
+          {"field": "trips", "title": "Trips (million)"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "#154360", "point": true, "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "trips", "type": "quantitative"}
+      }
+    }
+  ]
+}

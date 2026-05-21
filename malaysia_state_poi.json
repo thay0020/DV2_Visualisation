@@ -1,0 +1,1178 @@
+[
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "attraction",
+    "count": 8
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "hotel",
+    "count": 70
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "viewpoint",
+    "count": 46
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "guest_house",
+    "count": 21
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "gallery",
+    "count": 1
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "zoo",
+    "count": 2
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "chalet",
+    "count": 5
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "hostel",
+    "count": 2
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "museum",
+    "count": 6
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "theme_park",
+    "count": 1
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "aquarium",
+    "count": 1
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "camp_site",
+    "count": 13
+  },
+  {
+    "state": "Negeri Sembilan",
+    "longitude": 101.97004871348314,
+    "latitude": 2.6342424735955055,
+    "category": "motel",
+    "count": 2
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "viewpoint",
+    "count": 113
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "attraction",
+    "count": 55
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "hotel",
+    "count": 230
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "hostel",
+    "count": 20
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "guest_house",
+    "count": 42
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "aquarium",
+    "count": 4
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "camp_site",
+    "count": 36
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "chalet",
+    "count": 12
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "museum",
+    "count": 12
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "gallery",
+    "count": 3
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "motel",
+    "count": 5
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "zoo",
+    "count": 2
+  },
+  {
+    "state": "Selangor",
+    "longitude": 101.59686589291044,
+    "latitude": 3.1460253304104477,
+    "category": "theme_park",
+    "count": 2
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "hotel",
+    "count": 429
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "hostel",
+    "count": 42
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "viewpoint",
+    "count": 39
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "attraction",
+    "count": 14
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "guest_house",
+    "count": 31
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "museum",
+    "count": 28
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "motel",
+    "count": 5
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "gallery",
+    "count": 13
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "camp_site",
+    "count": 1
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "chalet",
+    "count": 2
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "zoo",
+    "count": 1
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "theme_park",
+    "count": 1
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "longitude": 101.69719189818781,
+    "latitude": 3.1452131039538718,
+    "category": "aquarium",
+    "count": 1
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "hotel",
+    "count": 173
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "camp_site",
+    "count": 66
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "attraction",
+    "count": 77
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "viewpoint",
+    "count": 79
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "theme_park",
+    "count": 1
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "gallery",
+    "count": 3
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "museum",
+    "count": 9
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "hostel",
+    "count": 47
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "zoo",
+    "count": 3
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "chalet",
+    "count": 31
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "guest_house",
+    "count": 59
+  },
+  {
+    "state": "Pahang",
+    "longitude": 102.18587703027026,
+    "latitude": 4.074372670270271,
+    "category": "motel",
+    "count": 7
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "hotel",
+    "count": 246
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "viewpoint",
+    "count": 85
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "motel",
+    "count": 10
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "guest_house",
+    "count": 36
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "museum",
+    "count": 17
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "attraction",
+    "count": 72
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "hostel",
+    "count": 31
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "aquarium",
+    "count": 1
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "camp_site",
+    "count": 81
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "gallery",
+    "count": 5
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "zoo",
+    "count": 2
+  },
+  {
+    "state": "Perak",
+    "longitude": 101.05687907705193,
+    "latitude": 4.585223269011725,
+    "category": "chalet",
+    "count": 11
+  },
+  {
+    "state": "W.P. Putrajaya",
+    "longitude": 101.6913054,
+    "latitude": 2.935664,
+    "category": "attraction",
+    "count": 1
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "guest_house",
+    "count": 213
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "hotel",
+    "count": 239
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "hostel",
+    "count": 84
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "camp_site",
+    "count": 17
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "theme_park",
+    "count": 1
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "museum",
+    "count": 9
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "attraction",
+    "count": 93
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "viewpoint",
+    "count": 64
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "chalet",
+    "count": 9
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "motel",
+    "count": 21
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "aquarium",
+    "count": 1
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "zoo",
+    "count": 2
+  },
+  {
+    "state": "Sarawak",
+    "longitude": 112.30074336538462,
+    "latitude": 2.6374644054376657,
+    "category": "gallery",
+    "count": 1
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "viewpoint",
+    "count": 13
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "guest_house",
+    "count": 53
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "camp_site",
+    "count": 18
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "hotel",
+    "count": 80
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "motel",
+    "count": 12
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "attraction",
+    "count": 33
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "hostel",
+    "count": 10
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "chalet",
+    "count": 8
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "museum",
+    "count": 1
+  },
+  {
+    "state": "Kelantan",
+    "longitude": 102.11299969257641,
+    "latitude": 5.75431558558952,
+    "category": "gallery",
+    "count": 1
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "hotel",
+    "count": 212
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "hostel",
+    "count": 65
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "attraction",
+    "count": 155
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "motel",
+    "count": 9
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "viewpoint",
+    "count": 48
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "guest_house",
+    "count": 71
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "camp_site",
+    "count": 17
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "theme_park",
+    "count": 1
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "chalet",
+    "count": 10
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "museum",
+    "count": 11
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "zoo",
+    "count": 2
+  },
+  {
+    "state": "Sabah",
+    "longitude": 116.90067770930233,
+    "latitude": 5.782603751162791,
+    "category": "aquarium",
+    "count": 1
+  },
+  {
+    "state": "W.P. Labuan",
+    "longitude": 115.24185934864865,
+    "latitude": 5.29822794054054,
+    "category": "attraction",
+    "count": 11
+  },
+  {
+    "state": "W.P. Labuan",
+    "longitude": 115.24185934864865,
+    "latitude": 5.29822794054054,
+    "category": "museum",
+    "count": 2
+  },
+  {
+    "state": "W.P. Labuan",
+    "longitude": 115.24185934864865,
+    "latitude": 5.29822794054054,
+    "category": "viewpoint",
+    "count": 1
+  },
+  {
+    "state": "W.P. Labuan",
+    "longitude": 115.24185934864865,
+    "latitude": 5.29822794054054,
+    "category": "hotel",
+    "count": 22
+  },
+  {
+    "state": "W.P. Labuan",
+    "longitude": 115.24185934864865,
+    "latitude": 5.29822794054054,
+    "category": "hostel",
+    "count": 1
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "viewpoint",
+    "count": 22
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "hotel",
+    "count": 114
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "attraction",
+    "count": 44
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "guest_house",
+    "count": 49
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "camp_site",
+    "count": 22
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "hostel",
+    "count": 14
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "motel",
+    "count": 7
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "museum",
+    "count": 5
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "zoo",
+    "count": 1
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "chalet",
+    "count": 32
+  },
+  {
+    "state": "Terengganu",
+    "longitude": 103.01581349646302,
+    "latitude": 5.2352954456591645,
+    "category": "gallery",
+    "count": 1
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "guest_house",
+    "count": 56
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "chalet",
+    "count": 5
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "hotel",
+    "count": 104
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "attraction",
+    "count": 36
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "museum",
+    "count": 14
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "viewpoint",
+    "count": 14
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "hostel",
+    "count": 29
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "gallery",
+    "count": 4
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "motel",
+    "count": 2
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "zoo",
+    "count": 3
+  },
+  {
+    "state": "Melaka",
+    "longitude": 102.24446902313433,
+    "latitude": 2.2155850597014926,
+    "category": "theme_park",
+    "count": 1
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "hotel",
+    "count": 297
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "attraction",
+    "count": 81
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "guest_house",
+    "count": 59
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "viewpoint",
+    "count": 69
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "camp_site",
+    "count": 27
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "hostel",
+    "count": 47
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "aquarium",
+    "count": 1
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "gallery",
+    "count": 1
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "motel",
+    "count": 6
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "theme_park",
+    "count": 4
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "chalet",
+    "count": 21
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "museum",
+    "count": 9
+  },
+  {
+    "state": "Johor",
+    "longitude": 103.61994095080128,
+    "latitude": 1.8710958256410255,
+    "category": "zoo",
+    "count": 2
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "hotel",
+    "count": 154
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "museum",
+    "count": 7
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "viewpoint",
+    "count": 63
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "guest_house",
+    "count": 81
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "hostel",
+    "count": 30
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "attraction",
+    "count": 53
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "motel",
+    "count": 44
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "chalet",
+    "count": 14
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "gallery",
+    "count": 2
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "zoo",
+    "count": 2
+  },
+  {
+    "state": "Kedah",
+    "longitude": 100.04269527472768,
+    "latitude": 6.191877091721133,
+    "category": "camp_site",
+    "count": 9
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "hotel",
+    "count": 110
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "attraction",
+    "count": 88
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "museum",
+    "count": 22
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "viewpoint",
+    "count": 70
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "chalet",
+    "count": 3
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "hostel",
+    "count": 34
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "guest_house",
+    "count": 40
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "camp_site",
+    "count": 7
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "gallery",
+    "count": 5
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "motel",
+    "count": 5
+  },
+  {
+    "state": "Pulau Pinang",
+    "longitude": 100.31579801402597,
+    "latitude": 5.405891960779221,
+    "category": "aquarium",
+    "count": 1
+  },
+  {
+    "state": "Perlis",
+    "longitude": 100.20036264242424,
+    "latitude": 6.4726040454545455,
+    "category": "guest_house",
+    "count": 6
+  },
+  {
+    "state": "Perlis",
+    "longitude": 100.20036264242424,
+    "latitude": 6.4726040454545455,
+    "category": "attraction",
+    "count": 2
+  },
+  {
+    "state": "Perlis",
+    "longitude": 100.20036264242424,
+    "latitude": 6.4726040454545455,
+    "category": "viewpoint",
+    "count": 7
+  },
+  {
+    "state": "Perlis",
+    "longitude": 100.20036264242424,
+    "latitude": 6.4726040454545455,
+    "category": "hotel",
+    "count": 12
+  },
+  {
+    "state": "Perlis",
+    "longitude": 100.20036264242424,
+    "latitude": 6.4726040454545455,
+    "category": "motel",
+    "count": 2
+  },
+  {
+    "state": "Perlis",
+    "longitude": 100.20036264242424,
+    "latitude": 6.4726040454545455,
+    "category": "hostel",
+    "count": 1
+  },
+  {
+    "state": "Perlis",
+    "longitude": 100.20036264242424,
+    "latitude": 6.4726040454545455,
+    "category": "camp_site",
+    "count": 3
+  }
+]

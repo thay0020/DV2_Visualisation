@@ -1,0 +1,66 @@
+[
+  {
+    "state": "Johor",
+    "visitors": 9.5
+  },
+  {
+    "state": "Kedah",
+    "visitors": 6.9
+  },
+  {
+    "state": "Kelantan",
+    "visitors": 5.9
+  },
+  {
+    "state": "Melaka",
+    "visitors": 6.2
+  },
+  {
+    "state": "Negeri Sembilan",
+    "visitors": 6.0
+  },
+  {
+    "state": "Pahang",
+    "visitors": 9.5
+  },
+  {
+    "state": "Pulau Pinang",
+    "visitors": 4.8
+  },
+  {
+    "state": "Perak",
+    "visitors": 10.2
+  },
+  {
+    "state": "Perlis",
+    "visitors": 1.3
+  },
+  {
+    "state": "Selangor",
+    "visitors": 9.6
+  },
+  {
+    "state": "Terengganu",
+    "visitors": 4.9
+  },
+  {
+    "state": "Sabah",
+    "visitors": 6.1
+  },
+  {
+    "state": "Sarawak",
+    "visitors": 5.7
+  },
+  {
+    "state": "W.P. Kuala Lumpur",
+    "visitors": 6.2
+  },
+  {
+    "state": "W.P. Labuan",
+    "visitors": 0.2
+  },
+  {
+    "state": "W.P. Putrajaya",
+    "visitors": 0.7
+  }
+]

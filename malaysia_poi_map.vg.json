@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Tourism Points of Interest by State in Malaysia",
+    "fontSize": 18
+  },
+  "width": 800,
+  "height": 500,
+  "projection": {
+    "type": "mercator",
+    "center": [109, 4],
+    "scale": 2500
+  },
+  "params": [
+    {
+      "name": "category_selection",
+      "value": "hotel",
+      "bind": {
+        "input": "select",
+        "options": [
+          "hotel", "attraction", "guest_house", "viewpoint",
+          "museum", "hostel", "chalet", "camp_site",
+          "gallery", "zoo", "theme_park", "aquarium", "motel"
+        ],
+        "labels": [
+          "Hotel", "Attraction", "Guest House", "Viewpoint",
+          "Museum", "Hostel", "Chalet", "Camp Site",
+          "Gallery", "Zoo", "Theme Park", "Aquarium", "Motel"
+        ],
+        "name": "Select Category: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {"sphere": true},
+      "mark": {"type": "geoshape", "fill": "#a8d8ea", "stroke": null}
+    },
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e8e8e8",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {"graticule": {"step": [5, 5]}},
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#b0c4de",
+        "strokeWidth": 0.3,
+        "filled": false
+      }
+    },
+    {
+      "data": {"url": "malaysia_state_poi.json"},
+      "transform": [
+        {"filter": "datum.category == category_selection"}
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.8,
+        "stroke": "white",
+        "strokeWidth": 0.5,
+        "tooltip": true
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "field": "count",
+          "type": "quantitative",
+          "title": "Number of POIs",
+          "scale": {"range": [50, 2000]},
+          "legend": {
+            "titleFontSize": 12,
+            "labelFontSize": 11
+          }
+        },
+        "color": {
+          "field": "count",
+          "type": "quantitative",
+          "title": "Count",
+          "scale": {"scheme": "orangered"},
+          "legend": {
+            "titleFontSize": 12,
+            "labelFontSize": 11
+          }
+        },
+        "tooltip": [
+          {"field": "state", "title": "State"},
+          {"field": "category", "title": "Category"},
+          {"field": "count", "title": "Number of POIs"}
+        ]
+      }
+    }
+  ]
+}

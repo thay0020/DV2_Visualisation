@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Visitor Arrivals by Mode of Transport (Jan-Apr 2025)", "fontSize": 16},
+  "width": 350,
+  "height": 350,
+  "data": {"url": "transport_share.json"},
+  "mark": {"type": "arc", "innerRadius": 80, "tooltip": true},
+  "encoding": {
+    "theta": {"field": "share", "type": "quantitative"},
+    "color": {
+      "field": "mode",
+      "type": "nominal",
+      "title": "Transport Mode",
+      "scale": {
+        "domain": ["Land", "Air", "Sea", "Rail"],
+        "range": ["#e67e22", "#2980b9", "#27ae60", "#8e44ad"]
+      },
+      "legend": {"titleFontSize": 12, "labelFontSize": 11}
+    },
+    "tooltip": [
+      {"field": "mode", "title": "Mode"},
+      {"field": "share", "title": "Share (%)", "format": ".1f"}
+    ]
+  }
+}

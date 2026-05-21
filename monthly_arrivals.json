@@ -1,0 +1,42 @@
+[
+  {
+    "month": "Jan",
+    "year": "2025",
+    "arrivals": 3756075
+  },
+  {
+    "month": "Feb",
+    "year": "2025",
+    "arrivals": 2980330
+  },
+  {
+    "month": "Mar",
+    "year": "2025",
+    "arrivals": 3366567
+  },
+  {
+    "month": "Apr",
+    "year": "2025",
+    "arrivals": 3281512
+  },
+  {
+    "month": "Jan",
+    "year": "2024",
+    "arrivals": 2431941
+  },
+  {
+    "month": "Feb",
+    "year": "2024",
+    "arrivals": 2697941
+  },
+  {
+    "month": "Mar",
+    "year": "2024",
+    "arrivals": 3136479
+  },
+  {
+    "month": "Apr",
+    "year": "2024",
+    "arrivals": 2799026
+  }
+]

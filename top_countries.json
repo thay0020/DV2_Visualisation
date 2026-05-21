@@ -1,0 +1,32 @@
+[
+  {
+    "country": "Singapore",
+    "arrivals": 6526262,
+    "growth": 28.5
+  },
+  {
+    "country": "Indonesia",
+    "arrivals": 1466923,
+    "growth": 11.6
+  },
+  {
+    "country": "China",
+    "arrivals": 1441184,
+    "growth": 37.8
+  },
+  {
+    "country": "Thailand",
+    "arrivals": 833610,
+    "growth": 3.4
+  },
+  {
+    "country": "India",
+    "arrivals": 484791,
+    "growth": 36.6
+  },
+  {
+    "country": "Brunei",
+    "arrivals": 480916,
+    "growth": -20.1
+  }
+]

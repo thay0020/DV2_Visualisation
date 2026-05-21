@@ -1,0 +1,32 @@
+[
+  {
+    "year": 2020,
+    "visitors": 131.7,
+    "trips": 147.0,
+    "expenditure": 40.4
+  },
+  {
+    "year": 2021,
+    "visitors": 66.0,
+    "trips": 72.4,
+    "expenditure": 18.4
+  },
+  {
+    "year": 2022,
+    "visitors": 171.6,
+    "trips": 207.8,
+    "expenditure": 64.1
+  },
+  {
+    "year": 2023,
+    "visitors": 213.7,
+    "trips": 241.5,
+    "expenditure": 84.9
+  },
+  {
+    "year": 2024,
+    "visitors": 260.1,
+    "trips": 289.9,
+    "expenditure": 106.7
+  }
+]

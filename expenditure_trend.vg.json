@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Total Expenditure 2020-2024 (RM billion)", "fontSize": 16},
+  "width": 400,
+  "height": 300,
+  "data": {"url": "trends.json"},
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#1e8449", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal", "title": "Year"},
+        "y": {"field": "expenditure", "type": "quantitative", "title": "Expenditure (RM billion)"},
+        "tooltip": [
+          {"field": "year", "title": "Year"},
+          {"field": "expenditure", "title": "Expenditure (RM billion)"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "#145a32", "point": true, "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "expenditure", "type": "quantitative"}
+      }
+    }
+  ]
+}

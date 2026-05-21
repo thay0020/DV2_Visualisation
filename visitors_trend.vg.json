@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Domestic Visitors 2020-2024 (millions)", "fontSize": 16},
+  "width": 400,
+  "height": 300,
+  "data": {"url": "trends.json"},
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#c0392b", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal", "title": "Year"},
+        "y": {"field": "visitors", "type": "quantitative", "title": "Visitors (million)"},
+        "tooltip": [
+          {"field": "year", "title": "Year"},
+          {"field": "visitors", "title": "Visitors (million)"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "#922b21", "point": true, "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "visitors", "type": "quantitative"}
+      }
+    }
+  ]
+}

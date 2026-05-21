@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "States Visited by Domestic Tourists 2024 (million)", "fontSize": 16},
+  "width": 500,
+  "height": 400,
+  "data": {"url": "states_visited.json"},
+  "mark": {"type": "bar", "color": "#c0932f", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "visitors",
+      "type": "quantitative",
+      "title": "Visitors (million)"
+    },
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "title": "State",
+      "sort": "-x"
+    },
+    "tooltip": [
+      {"field": "state", "title": "State"},
+      {"field": "visitors", "title": "Visitors (million)"}
+    ]
+  }
+}

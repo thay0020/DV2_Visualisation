@@ -1,0 +1,26 @@
+[
+  {
+    "component": "Shopping",
+    "percentage": 37.4
+  },
+  {
+    "component": "Food & Beverage",
+    "percentage": 16.2
+  },
+  {
+    "component": "Purchase of Automotive Fuel",
+    "percentage": 12.7
+  },
+  {
+    "component": "Accommodation",
+    "percentage": 11.2
+  },
+  {
+    "component": "Expenditure by Visited Households",
+    "percentage": 7.7
+  },
+  {
+    "component": "Others",
+    "percentage": 14.8
+  }
+]
