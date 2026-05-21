@@ -58,6 +58,18 @@
       }
     },
     {
+      "data": {
+        "url": "malaysia_states.topojson",
+        "format": {"type": "topojson", "feature": "data"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#d3d3d3",
+        "stroke": "#999",
+        "strokeWidth": 0.8
+      }
+    },
+    {
       "data": {"url": "malaysia_state_poi.json"},
       "transform": [
         {"filter": "datum.category == category_selection"},
