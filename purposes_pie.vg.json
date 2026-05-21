@@ -11,7 +11,7 @@
       "field": "purpose",
       "type": "nominal",
       "title": "Purpose",
-      "scale": {"scheme": "category10"},
+      "scale": {"scheme": "set3"},
       "legend": {"titleFontSize": 12, "labelFontSize": 11}
     },
     "tooltip": [
