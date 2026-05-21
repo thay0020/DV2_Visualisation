@@ -7,7 +7,7 @@
   "width": 800,
   "height": 500,
   "projection": {
-    "type": "mercator",
+    "type": "equalEarth",
     "center": [109, 4],
     "scale": 2500
   },
@@ -60,16 +60,18 @@
     {
       "data": {"url": "malaysia_state_poi.json"},
       "transform": [
-        {"filter": "datum.category == category_selection"}
+        {"filter": "datum.category == category_selection"},
+        {"calculate": "datum.count", "as": "sort_order"}
       ],
       "mark": {
         "type": "circle",
-        "opacity": 0.8,
+        "opacity": 0.6,
         "stroke": "white",
-        "strokeWidth": 0.5,
+        "strokeWidth": 0.3,
         "tooltip": true
       },
       "encoding": {
+        "order": {"field": "count", "type": "quantitative", "sort": "descending"},
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
         "size": {
