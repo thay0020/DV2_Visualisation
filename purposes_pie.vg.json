@@ -7,9 +7,13 @@
   "mark": {"type": "arc", "tooltip": true},
   "encoding": {
     "theta": {
-    "field": "percentage",
-    "type": "quantitative",
-    "sort": "descending"
+        "field": "percentage",
+        "type": "quantitative"
+    },
+    "order": {
+        "field": "percentage",
+        "type": "quantitative",
+        "sort": "descending"
     },
     "color": {
       "field": "purpose",
