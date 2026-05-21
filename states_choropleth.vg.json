@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Domestic Tourist Intensity by State (2024)",
+    "subtitle": "Choropleth shows visitors per 1,000 residents — circles show raw visitor volume",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#666"
+  },
+  "width": 750,
+  "height": 450,
+  "projection": {
+    "type": "mercator",
+    "center": [109, 4],
+    "scale": 2500
+  },
+  "layer": [
+    {
+      "data": {"sphere": true},
+      "mark": {"type": "geoshape", "fill": "#a8d8ea", "stroke": null}
+    },
+    {
+      "data": {"graticule": {"step": [5, 5]}},
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#b0c4de",
+        "strokeWidth": 0.3,
+        "filled": false
+      }
+    },
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#d3d3d3",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "states_choropleth.json"
+      },
+      "transform": [
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "url": "malaysia_states.topojson",
+              "format": {"type": "topojson", "feature": "data"}
+            },
+            "key": "properties.shapeName",
+            "fields": ["type", "properties", "geometry"]
+          }
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "shape": {
+          "field": "geometry",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "visitors_per_1000",
+          "type": "quantitative",
+          "title": "Visitors per 1,000 residents",
+          "scale": {
+            "type": "threshold",
+            "domain": [2000, 4000, 6000],
+            "range": ["#fdd49e", "#fc8d59", "#d7301f", "#7f0000"]
+          },
+          "legend": {
+            "titleFontSize": 12,
+            "labelFontSize": 11,
+            "orient": "right",
+            "direction": "horizontal",
+            "offset": 10
+          }
+        },
+        "tooltip": [
+          {"field": "state", "title": "State"},
+          {"field": "visitors", "title": "Visitors (million)"},
+          {"field": "visitors_per_1000", "title": "Per 1,000 residents"},
+          {"field": "population", "title": "Population (million)"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "states_choropleth.json"
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.7,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "field": "visitors",
+          "type": "quantitative",
+          "title": "Raw Visitors (million)",
+          "scale": {"range": [50, 3000]},
+          "legend": {
+            "titleFontSize": 12,
+            "labelFontSize": 11,
+            "orient": "right"
+          }
+        },
+        "color": {"value": "#2c3e50"},
+        "tooltip": [
+          {"field": "state", "title": "State"},
+          {"field": "visitors", "title": "Visitors (million)"},
+          {"field": "visitors_per_1000", "title": "Per 1,000 residents"},
+          {"field": "population", "title": "Population (million)"}
+        ]
+      }
+    }
+  ]
+}
