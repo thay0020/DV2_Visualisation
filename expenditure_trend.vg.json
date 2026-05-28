@@ -6,7 +6,7 @@
   "data": {"url": "trends.json"},
   "layer": [
     {
-      "mark": {"type": "bar", "color": "#1e8449", "opacity": 0.7},
+      "mark": {"type": "bar", "color": "#b5c730", "opacity": 0.7},
       "encoding": {
         "x": {"field": "year", "type": "ordinal", "title": "Year"},
         "y": {"field": "expenditure", "type": "quantitative", "title": "Expenditure (RM billion)"},
@@ -17,7 +17,7 @@
       }
     },
     {
-      "mark": {"type": "line", "color": "#145a32", "point": true, "strokeWidth": 2},
+      "mark": {"type": "line", "color": "#8c9926", "point": true, "strokeWidth": 2},
       "encoding": {
         "x": {"field": "year", "type": "ordinal"},
         "y": {"field": "expenditure", "type": "quantitative"}
